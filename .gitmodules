@@ -4,3 +4,21 @@
 [submodule "iprocessable"]
 	path = iprocessable
 	url = https://github.com/slawomir-niespodziany/diff_broker_iprocessable.git
+[submodule "link_sat"]
+	path = link_sat
+	url = https://github.com/slawomir-niespodziany/diff_broker_link_sat.git
+[submodule "link_gsm"]
+	path = link_gsm
+	url = https://github.com/slawomir-niespodziany/diff_broker_link_gsm.git
+[submodule "link_eth"]
+	path = link_eth
+	url = https://github.com/slawomir-niespodziany/diff_broker_link_eth.git
+[submodule "message_source"]
+	path = message_source
+	url = https://github.com/slawomir-niespodziany/diff_broker_message_source.git
+[submodule "diff"]
+	path = diff
+	url = https://github.com/slawomir-niespodziany/diff.git
+[submodule "application"]
+	path = application
+	url = https://github.com/slawomir-niespodziany/diff_broker_application.git
