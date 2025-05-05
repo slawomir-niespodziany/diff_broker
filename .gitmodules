@@ -1,0 +1,6 @@
+[submodule "ilink"]
+	path = ilink
+	url = https://github.com/slawomir-niespodziany/diff_broker_ilink.git
+[submodule "iprocessable"]
+	path = iprocessable
+	url = https://github.com/slawomir-niespodziany/diff_broker_iprocessable.git
