@@ -1,0 +1,3 @@
+[submodule "ilink"]
+	path = ilink
+	url = git@github.com:slawomir-niespodziany/diff_broker_ilink.git
