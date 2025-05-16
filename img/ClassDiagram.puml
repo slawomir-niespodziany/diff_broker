@@ -1,0 +1,39 @@
+@startuml
+interface IProcessable {
++bool finished()
++void process()
+}
+
+class MessageSource {
++MessageSource(ILink& linkPrimary, ILink& linkSecondary)
++bool finished() override
++void process() override
+}
+
+interface ILink {
++bool send(const std::string &message)
+}
+
+class LinkGsm {
++LinkGsm()
++bool send(const std::string &message) override
+}
+
+class LinkSat {
++LinkSat()
++bool send(const std::string &message) override
+}
+
+class LinkEth {
++LinkEth()
++bool send(const std::string &message) override
+}
+
+IProcessable <|-- MessageSource
+
+MessageSource --> ILink
+
+ILink <|-- LinkGsm
+ILink <|-- LinkSat
+ILink <|-- LinkEth
+@enduml
