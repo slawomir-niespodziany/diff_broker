@@ -8,12 +8,12 @@ To ensure firmware maintainability, its architecture and implementation need to 
 ### Use case A
 A fleet management edge device consists of a cellular and satellite modems. It takes advantage of both low cost of cellular transmission and extended coverage provided by the satellite link. The image below depicts hardware setup for this use case.
 
-<p align="center"><img src="img/UseCaseA.png" width="700px" alt="Use case A - Hardware setup"/></p>
+<p align="center"><img src="img/UseCaseA.png" alt="Use case A - Hardware setup"/></p>
 
 ### Use case B
 A newer vehicle model is already equipped with internet connectivity. The fleet management device can be plugged into the system with an Ethernet cable. Such utilization of an existing hardware allows to siginificantly reduce device hardware cost. Below image depicts the setup for this use case.
 
-<p align="center"><img src="img/UseCaseB.png" width="700px" alt="Use case B - Hardware setup"/></p>
+<p align="center"><img src="img/UseCaseB.png" alt="Use case B - Hardware setup"/></p>
 
 # Solution
 The right software architecture for such problem shall decompose it into small pieces and solve each independently. From there, Diff allows for a quick and efficient assembly of a solution tailored for each use case. 
