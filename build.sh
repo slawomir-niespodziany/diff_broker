@@ -6,6 +6,7 @@ function info() {
     printf "${BLUE}$1${DEF}\n"
 }
 
+info "Installing Diff.";         cd diff;           ./build.sh; cd ..; info "Done.\n";
 info "Installing ILink.";        cd ilink;          ./build.sh; cd ..; info "Done.\n";
 info "Installing IProcessable."; cd iprocessable;   ./build.sh; cd ..; info "Done.\n";
 info "Building MessageSource.";  cd message_source; ./build.sh; cd ..; info "Done.\n";
